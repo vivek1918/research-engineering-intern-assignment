@@ -1,0 +1,35 @@
+.env
+
+#Virtual environment
+.env
+venv
+.venv
+env
+venv3
+
+#Cache Files
+*.pyc
+__pycache__
+*.log
+
+#Local env
+.env
+src-old
+
+#IDE
+.idea
+
+#Database
+.tmp
+*.parquet
+*.csv
+!telegram_channels.csv
+*.jsonl
+*.json
+!telegram-categories.json
+*.DS_Store
+
+#Notebooks and test files
+*.ipynb
+*test*.py
+*.session

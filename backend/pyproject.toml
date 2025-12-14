@@ -1,0 +1,22 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "vivek vasani",email = "vivekvasani2004@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[all] (>=0.116.1,<0.117.0)",
+    "uvicorn[standard] (>=0.35.0,<0.36.0)",
+    "pandas (>=2.3.2,<3.0.0)",
+    "scikit-learn (>=1.7.1,<2.0.0)",
+    "numpy (>=2.3.2,<3.0.0)",
+    "neo4j (>=5.28.2,<6.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
