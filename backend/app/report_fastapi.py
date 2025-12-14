@@ -980,4 +980,5 @@ def health_check():
 
 if __name__ == "__main__":
     import uvicorn
+    print("Starting Insights-Plus API server...")
     uvicorn.run(app, host="0.0.0.0", port=8000)
